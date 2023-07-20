@@ -1,0 +1,23 @@
+  .footer_main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vw 3.4vw;
+    border-top: 1px solid #AFB9CA;
+  }
+
+  .footer_write_comment {
+    width: 35vw;
+    text-align: left;
+  }
+
+  .footer_input,
+  .footer_button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+
+  .footer_action .footer_button {
+    color: #AFB9CA
+  }

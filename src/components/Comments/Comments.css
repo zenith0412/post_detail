@@ -1,0 +1,25 @@
+.comment_profile_section{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .user_comment{
+    padding: 0 6rem;
+  }
+  
+  .comment_actions{
+    gap: 1.5rem;
+    padding: 1.2vw 6rem;
+    height: 40px;
+    align-items: center;
+    color: #AFB9CA;
+  }
+  
+  .comment_reply{
+    padding: 0 5rem  ;
+  }
+  
+  .comment_user{
+    margin-top: 0;
+  }

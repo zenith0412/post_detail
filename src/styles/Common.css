@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.com_light_font {
+  color: #919EB6;
+}
+
+.com_btn {
+  background-color: #01B99F;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  padding: .6rem 1.2rem;
+  color: #fff;
+}
+
+button,
+.post_actions,
+.comment_actions,
+.com_post_profile_img,
+label {
+  cursor: pointer;
+}
+
+.com_btn:hover {
+  background-color: #06ccb2;
+
+}
+
+.com_user_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1.6rem;
+  padding: 1.2vw 3.4vw;
+}
+
+.com_name_section {
+  display: flex;
+  align-items: center;
+  gap: .2rem;
+}
+
+.com_post_user_name {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.com_post_time {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.com_post_like, .com_comment_like {
+  display: flex;
+  align-items: center;
+  gap: .7rem;
+}
